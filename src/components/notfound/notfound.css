@@ -1,0 +1,31 @@
+.no-page{
+   margin-left: 30%;
+   margin-top: 30vh;
+   display: flex;
+   
+}
+
+.no-page-left h3{
+    font-size: 25px;
+    border-right:  1px solid black;
+    margin-right: 5px;
+    padding-right: 4px;
+}
+
+.no-page-link-text{
+    font-size: small;
+}
+
+.no-page-text{
+    font-weight: 500;
+}
+
+
+@media screen and (max-width:600px) {
+    .no-page{
+        margin-left: 15%;
+        margin-top: 30vh;
+        display: flex;
+        
+     }
+}

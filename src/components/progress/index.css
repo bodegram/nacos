@@ -1,0 +1,19 @@
+.progress{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.progress-top{
+    display: flex;
+    justify-content: space-between;
+    background-color: ghostwhite;
+    color: green;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+

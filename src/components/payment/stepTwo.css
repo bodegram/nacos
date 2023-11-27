@@ -1,0 +1,54 @@
+.two{
+    padding-top: 2px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-header{
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+.continue-btn{
+    outline: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 15px;
+}
+
+.prev-btn{
+    outline: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 15px;
+}
+
+.two-buttons{
+    display: flex;
+    gap: 5px;
+}
+
+@media screen and (max-width:600px) {
+    .two{
+        display: block;
+    }
+
+    .two-content{
+        margin-bottom: 30px;
+    }
+}
+

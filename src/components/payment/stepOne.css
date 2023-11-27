@@ -1,0 +1,74 @@
+.one{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.one-form{
+    display: block;
+   
+}
+
+.one-header h3{
+   font-size: 24px;
+   font-weight: 500;
+   margin-bottom: 4px;
+   
+}
+
+.one-header p{
+    font-size: small;
+}
+
+.one-header-top{
+    margin-bottom: 10px;
+}
+
+.form-control{
+    padding: 10px;
+    width: 550px;
+    outline: none;
+    margin-top: 3px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 15px;
+    background-color: white;
+
+}
+
+.pay-btn{
+    padding: 20px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: white;
+    color: green;
+    width: 550px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.input-field{
+    margin-bottom: 17px;
+}
+
+@media screen and (max-width:600px) {
+ 
+    .one{
+        display: block;
+        width: 100%;
+    }
+
+    .one-header{
+        margin-bottom: 50px;
+    }
+
+    .form-control{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .pay-btn{
+        width: 100%;
+    }
+}

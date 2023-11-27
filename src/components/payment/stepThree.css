@@ -1,0 +1,41 @@
+.three{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.continue-btn{
+    outline: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 15px;
+}
+
+.prev-btn{
+    outline: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 15px;
+    cursor: not-allowed;
+}
+
+.three-buttons{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.three-top{
+    font-size: 16px;
+    font-family: sans-serif;
+}

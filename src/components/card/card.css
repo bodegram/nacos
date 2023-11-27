@@ -1,0 +1,32 @@
+.card{
+    padding: 30px;
+    cursor: pointer;
+    width: 500px;
+    margin-bottom: 15px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 10px;
+}
+
+.card-icon{
+    text-align: center;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+
+
+.card-text{
+    text-align: center;
+    font-size: small;
+}
+
+@media screen and (max-width:600px) {
+    .card{
+        width: 100%;
+    }
+}

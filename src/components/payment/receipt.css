@@ -1,0 +1,50 @@
+.receipt-top{
+    display: block;
+    gap: 10px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.receipt-img img{
+    width: 100px;
+}
+
+
+
+.receipt-header{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.receipt-text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.receipt-text div{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.receipt-text-title{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.signature{
+    border-top: 1px solid black;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.receipt-footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
